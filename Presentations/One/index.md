@@ -141,12 +141,10 @@ template: basic-layout
 - Mixed criticality GPGPU compute for running inference?
 
 
+---
 name: timeline
 class: middle, center
 ![timeline-inv](./img/timeline-inv.png)
-???
-SLIDE 7: Timeline of work to be done
-- Checkpoint one already done
 
 
 ---
