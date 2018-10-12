@@ -47,7 +47,7 @@ template: basic-layout
 - Many more sensors
 - High bandwidth datapaths (USB, PCIe)
 - Large screen based dash/HUD (Android Auto)
-- Self driving modules such as Drive-AGX
+- Self driving modules (Drive-AGX)
 
 
 ---
