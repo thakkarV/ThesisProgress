@@ -119,7 +119,7 @@ template: basic-layout
 ---
 name: method-2
 template: basic-layout
-## Linux Hypervisor - RAMdisk
+## Type 2 Hypervisor - RAMdisk
 1. Init ramdisk in host
 2. Mount in guest OSes as a shared drive
 3. Mmap the shared file and treat as shared memory
@@ -128,10 +128,10 @@ template: basic-layout
 ---
 name: method-3
 template: basic-layout
-## Linux Hypervisor Approach-2
+## Type 2 Hypervisor - Shared Memory
 1. Init shared memory in KVM
-2. Use 
-3. Mmap the shared file and treat as shared memory
+2. Use vmshm to expose this as a PCIe charecter device
+3. Use vmshm driver to read/write to virtual device's memory
 
 
 ---
