@@ -65,7 +65,7 @@ name: consolidation-issues
 template: basic-layout
 ## Issue With Consolidation
 - Still need CAN/USB for control and infotainment
-- But that breaks RTOS timing guarantees
+- But cannot do low criticality processing on RTOS
 ???
 - cannot let RTOS do everything even if consolidated
 - Need different OSes so that we can process separately
