@@ -149,6 +149,7 @@ SLIDE 7: Timeline of work to be done
 - Checkpoint one already done
 
 
+---
 name: questions
 class: middle, center
 ### Questions?
