@@ -56,7 +56,7 @@ template: basic-layout
 ## Our Car Platform
 - Quest-V Partitions hardware for OSes
 - Quest controls high criticality control signal processing
-- Linux hosts
+- Linux hosts general purpose compute
 - Android hosts low criticality info-tainment
 
 
