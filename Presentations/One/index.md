@@ -93,7 +93,7 @@ class: title, top
 - Setup a shared memory region between two Guest OSes
 - Provide low latency read-write access to it
 - Preserve security aspects of virtualization
-- Ensure no side-effects for high criticality processing of ROTS
+- Ensure no side-effects for high criticality processing of RTOS
 .center[![design-diagram-inv](./img/design-diagram-inv.png)]
 
 
@@ -130,8 +130,8 @@ name: method-3
 template: basic-layout
 ## Type 2 Hypervisor - Shared Memory
 1. Init vmshm memory in Linux host
-2. Use vmshm driver to expose a virtual PCIe charecter device to host and guests
-3. `mmap` shared memroy in guests to expose to userland
+2. Use vmshm driver to expose a virtual PCIe character device to host and guests
+3. `mmap` shared memory in guests to expose to userland
 
 
 ---
