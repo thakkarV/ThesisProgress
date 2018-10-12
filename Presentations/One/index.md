@@ -61,19 +61,6 @@ template: basic-layout
 
 
 ---
-name: can-cannot-2-electric-boogaloo
-template: basic-layout
-## Easy, do both separately!
-- No, 
-- But RTOS cannot do infotainment, it is breaking your car!
-- CAN ... cannot?
-???
-- can ~cannot~ do this
-- Right now they just have both
-- But what if we could unify everything under a single multi-core processor?
-
-
----
 name: consolidation-issues
 template: basic-layout
 ## Issue With Consolidation
