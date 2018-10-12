@@ -129,9 +129,9 @@ template: basic-layout
 name: method-3
 template: basic-layout
 ## Type 2 Hypervisor - Shared Memory
-1. Init shared memory in KVM
-2. Use vmshm to expose this as a PCIe charecter device
-3. Use vmshm driver to read/write to virtual device's memory
+1. Init vmshm memory in Linux host
+2. Use vmshm driver to expose a virtual PCIe charecter device to host and guests
+3. `mmap` shared memroy in guests to expose to userland
 
 
 ---
